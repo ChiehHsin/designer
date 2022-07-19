@@ -1,0 +1,198 @@
+
+body{
+    font-family: "Manjari", "M PLUS Rounded 1c", sans-serif;
+    background-image: url(img/background.jpg);
+    background-repeat: repeat;
+    overflow-x: hidden;
+}
+
+.nav_bg{
+    background-image: url(img/background.jpg);
+    background-repeat: repeat;
+}
+
+
+#menu-item-484 a, #menu-item-485 a, #menu-item-341 a, #menu-item-213 a, #menu-item-775 a, .dark-link a{
+    color: #8e8e8e !important;
+    text-decoration: none;
+}
+
+#menu-item-484 a:hover, #menu-item-485 a:hover, #menu-item-341 a:hover, #menu-item-213 a:hover, #menu-item-775 a:hover .dark-link a:hover{
+    color: #686868 !important;
+    text-decoration: none;
+}
+
+
+.logo{
+    height: auto;
+    width: 100%;
+}
+
+
+#cover{
+    height:450px;
+}
+
+.cover_title{
+    font-family: "Manjari", "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: rgb(117, 117, 117) 0.02em 0.02em 0.1em;
+}
+
+@media screen and (max-width: 768px){
+  .cover_title{
+    font-size: 30px;
+  }
+
+}
+
+h1{
+    font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    color:#535353;
+}
+
+h2{
+    font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+    
+    font-weight: 400;
+      color:#535353;
+  }
+  
+  h3{
+    font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    color:#535353;
+  }
+  
+  h4{
+    font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+    color:#535353;
+  }
+  
+  h5{
+    font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+    color:#535353;
+    font-weight: 400;
+  }
+  
+p{
+      font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+      font-weight: 400;
+      font-size: 16px !important;
+      letter-spacing: 0.03em;
+      color:#535353;
+    }
+
+p.ch{
+        font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+        font-weight: 400;
+        font-size: 14px !important;
+        color:#535353;
+        letter-spacing: 0.03em;
+      }
+  
+a.link {
+  font-family: "Manjari", "ar-yuanb5std", "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    color: #535353;
+    text-decoration: none;
+  }
+  
+  a.link:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+
+.navbar-collapse{
+  height: 100%;
+  width: 100%;
+  background-image: url(image/background.jpg);
+  background-repeat: repeat;
+}
+
+.nav-item{
+  text-align: center;
+}
+
+
+@media screen and (max-width: 960px){
+  .nav_container{
+    width: 100%;
+    }
+}
+
+.uxintro{
+    background-color: #ffffffd0;
+}
+
+.worklist{
+    height: 250px;
+    background-size: cover;
+    background-repeat:no-repeat;
+  
+}
+
+
+.grayscale{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+.grayscale:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
+  .list-inline-item{
+      color:#646464;
+  }
+
+  .cover_btn{
+    color:#ffffff;
+    border-color:#ffffff;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* border: 1px solid transparent; */
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .cover_btn:hover{
+    color: #473064;  
+    background-color: #ffffff;
+    border-color:none;
+  }
+
+  .btn-link:hover{
+    color:#473064;
+  }
+
+  .post-img{
+      width: 100%;
+      height: auto;
+  }
+
+  .img-title{
+      height: 30px;
+      width: auto;
+  }
